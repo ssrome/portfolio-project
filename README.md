@@ -1,2 +1,3 @@
-# portfolio-project
- My project for SheCodes Responsive workshop
+# Portfolio Project
+
+My project for SheCodes Responsive workshop

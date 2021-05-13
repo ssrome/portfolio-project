@@ -1,0 +1,12 @@
+body {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+div.button {
+  font-family: Montserrat;
+}
