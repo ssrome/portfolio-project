@@ -1,12 +1,60 @@
-body {
-  font-family: Roboto;
+:root {
+  --primary-color: #ffffff;
+  --background-color: #1b1b1b;
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-size: 72px;
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: var(--main-font-family);
+}
+
+.hero {
+  text-align: center;
+}
+
+.caption {
+  color: var(--primary-color);
+  /* padding: 276px 0; */
+  padding: 20% 0;
+}
+
+.hero h1 {
+  font-size: 2rem;
   font-weight: bold;
 }
 
-div.button {
-  font-family: Montserrat;
+.hero h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.hero-button {
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  color: var(--background-color);
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  height: 53px;
+  padding: 18px 30px;
+  margin: 40px auto;
+  width: 200px;
+}
+
+@media (max-width: 576px) {
+  .hero h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
 }
