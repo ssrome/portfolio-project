@@ -16,6 +16,18 @@ body {
   background-size: cover;
 }
 
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px;
+}
+
 .hero {
   background-image: url(/images/bg.png);
   background-position: center center;
