@@ -101,6 +101,12 @@ body {
   width: 200px;
 }
 
+.page-title {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 160px 0;
+}
+
 .row-width {
   margin: 0 auto;
 }
