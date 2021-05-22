@@ -1,6 +1,8 @@
 :root {
   --primary-color: #ffffff;
+  --secondary-color: #f65282;
   --background-color: #1b1b1b;
+  --secondary-background-color: #202020;
   --main-font-family: "Roboto", sans-serif;
   --secondary-font-family: "Montserrat", sans-serif;
 }
@@ -41,6 +43,48 @@ body {
   font-weight: normal;
   margin: 0 auto;
   width: 80%;
+}
+
+.about-hero {
+  background-color: var(--secondary-background-color);
+  /* height: 70vh; */
+}
+
+.about-name {
+  font-size: 64px;
+}
+
+.camera {
+  background-color: #2d2727;
+  padding: 10px 20px;
+  width: 80%;
+}
+
+.camera img {
+  width: 18%;
+}
+
+.camera span {
+  margin-left: 20px;
+}
+
+.about-caption {
+  margin: 10% 0 0;
+  width: 45%;
+}
+
+.social {
+  padding: 0 0 40px 0;
+}
+
+.text {
+  width: 88%;
+  padding: 10px 0 20px;
+}
+
+.sub-heading {
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
 .hero-button {
