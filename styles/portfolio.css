@@ -18,14 +18,23 @@ body {
 
 ul {
   list-style-type: none;
-  display: inline-block;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.logo {
+  height: 15%;
+  align-items: center;
 }
 
 .nav-item {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 16px;
   font-weight: 500;
-  padding: 15px;
+  padding: 10px;
 }
 
 .hero {
