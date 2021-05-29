@@ -39,6 +39,10 @@ footer {
   width: 78%;
 }
 
+.credit a {
+  text-decoration: underline;
+}
+
 .logo {
   height: 15%;
   align-items: center;
@@ -67,7 +71,7 @@ footer {
 }
 
 .hero h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -168,33 +172,19 @@ footer {
 }
 
 @media all and (min-width: 320px) {
-  .hero h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
   .page-title {
     font-size: 62px;
   }
-  /* .heroImages {
-    width: 65%;
-    margin: 0;
-  } */
 }
 
 @media all and (min-width: 576px) {
   .page-title {
     font-size: 72px;
   }
-  /* .hero h2 {
-    font-size: 2.5rem;
+  .hero h2 {
+    font-size: 3.5rem;
     font-weight: bold;
-  } */
-  /* .heroImages {
-    height: auto;
-    margin: 0;
-    padding: 10px 0;
-    max-width: 90%;
-  } */
+  }
   .myPhotos {
     width: 60vw;
   }
